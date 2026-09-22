@@ -98,7 +98,7 @@ export default function ApplicationSettings() {
     if (!accessToken) return <Result title={t("login.required")} extra={<Button onClick={openLoginModal}>{t("login.login")}</Button>} />;
     if (!user) return <Result title={t("applications.loadingUser")} />;
     if (!canManage) return <Result status="403" title={t("applications.forbidden")} />;
-    return <section style={{ padding: "24px 0" }}>
+    return <section style={{ padding: "24px 30px" }}>
         <Typography.Title heading={4}>{t("applications.title")}</Typography.Title>
         <Typography.Paragraph>{t("applications.description")}</Typography.Paragraph>
         <Space wrap style={{ marginBottom: 20 }}>
