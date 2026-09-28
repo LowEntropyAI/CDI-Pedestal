@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cloud-materials/common':
-        specifier: https://github.com/Charlie-BU/cloud-materials-common/releases/download/release/cloud-materials-common-1.20.1-cdi.0.tgz?asset=20260902-125705
-        version: https://github.com/Charlie-BU/cloud-materials-common/releases/download/release/cloud-materials-common-1.20.1-cdi.0.tgz?asset=20260902-125705(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: https://charlie-assets.tos-cn-beijing.volces.com/cloud-materials-common-1.20.1-cdi.0.tgz
+        version: https://charlie-assets.tos-cn-beijing.volces.com/cloud-materials-common-1.20.1-cdi.0.tgz(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       axios:
         specifier: ^1.13.2
         version: 1.20.0(debug@4.4.3(supports-color@7.1.0))(supports-color@7.1.0)
@@ -204,8 +204,8 @@ packages:
     resolution: {integrity: sha512-ctxtJ/eA+t+6q2++vj5j7FYX3nRu311q1wfYH3xjlLOsczhlhxAg2FWNUXhpGvAw3BWo1xBcvOV6/YLc2r5FJw==}
     hasBin: true
 
-  '@cloud-materials/common@https://github.com/Charlie-BU/cloud-materials-common/releases/download/release/cloud-materials-common-1.20.1-cdi.0.tgz?asset=20260902-125705':
-    resolution: {integrity: sha512-sB3rxZ/nl1eyvbqmQPasbGGTFPvwCvoUWyg/5qgdZB/k1lxIoTShsBM767dyCHf/362Vqu0pVnA/ibZhXaKKvw==, tarball: https://github.com/Charlie-BU/cloud-materials-common/releases/download/release/cloud-materials-common-1.20.1-cdi.0.tgz?asset=20260902-125705}
+  '@cloud-materials/common@https://charlie-assets.tos-cn-beijing.volces.com/cloud-materials-common-1.20.1-cdi.0.tgz':
+    resolution: {integrity: sha512-sB3rxZ/nl1eyvbqmQPasbGGTFPvwCvoUWyg/5qgdZB/k1lxIoTShsBM767dyCHf/362Vqu0pVnA/ibZhXaKKvw==, tarball: https://charlie-assets.tos-cn-beijing.volces.com/cloud-materials-common-1.20.1-cdi.0.tgz}
     version: 1.20.1-cdi.0
     peerDependencies:
       react: '>=16 <20'
@@ -2313,7 +2313,7 @@ snapshots:
     dependencies:
       css-tree: 3.2.1
 
-  '@cloud-materials/common@https://github.com/Charlie-BU/cloud-materials-common/releases/download/release/cloud-materials-common-1.20.1-cdi.0.tgz?asset=20260902-125705(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@cloud-materials/common@https://charlie-assets.tos-cn-beijing.volces.com/cloud-materials-common-1.20.1-cdi.0.tgz(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

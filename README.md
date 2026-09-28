@@ -11,6 +11,8 @@ pnpm dev
 
 默认端口 9000。配置 `CDI_UPSTREAM_BASE_URL` 指向基座后端 API（当前由 CAM-Server 提供认证和应用目录接口）。子应用信息通过数据库管理，不再使用 VITE_CAM_REMOTE_ENTRY 或 VITE_HIDE_MENUS。基座 CDIService 固定使用 `/api/cdi`。
 
+在 `.env` 中通过 `VITE_COLOR_THEME` 配置 `body` 的 `data-color-theme`，未配置、空值或仅含空白时默认使用 `cream`。例如 `VITE_COLOR_THEME=cream`；设为 `default` 可使用组件库默认配色。修改后需重启开发服务，生产环境需重新构建。
+
 ## 子应用管理
 
 侧导最后一项“子应用配置”由 L0 用户管理，支持 Federation 与 iframe、新增编辑、启停、排序、软删除。空目录也可进入配置页。

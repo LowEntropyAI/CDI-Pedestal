@@ -6,6 +6,8 @@ import App from "./App";
 import "./App.less";
 import "./theme.less";
 
+document.body.dataset.colorTheme = import.meta.env.VITE_COLOR_THEME?.trim() || "cream";
+
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <App />
