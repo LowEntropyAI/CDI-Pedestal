@@ -7,6 +7,9 @@ COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
 COPY . .
 
+# Browser configuration must be available when Vite builds the static assets.
+ARG VITE_COLOR_THEME
+ENV VITE_COLOR_THEME=${VITE_COLOR_THEME}
 ARG VITE_CONTENT_OVERRIDE
 ENV VITE_CONTENT_OVERRIDE=${VITE_CONTENT_OVERRIDE}
 ARG VITE_GOOGLE_CLIENT_ID
